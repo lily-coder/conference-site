@@ -1,3 +1,15 @@
-h1 {
-  color: aqua;
+  @font-face {
+  src: url("./Assets/Fonts/Cocogoose.ttf");
+  font-family: 'Cocogoose';
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* font-family: 'Lato', sans-serif; */
+:root {
+  --black: #272a31;
+  --orange: #ec5242;
+  --grey: #d3d3d3;
+}
+
+body { background-color: var(--blue); }
