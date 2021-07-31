@@ -228,17 +228,25 @@ footer {
 
 .partners {
   background-color: #272a31d7;
-  font-size: 2.4vh;
   font-weight: bold;
 }
 
 .partners p {
   text-align: center;
-  padding: 4vh 0%;
+  padding: 3vh 0%;
+  font-size: 2rem;
+}
+
+.partners-list {
+  display: flex;
+  font-size: 2.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .partners-list li {
-  text-decoration: none;
+  list-style: none;
+  padding: 2vh 4vw;
 }
 
 .footer-signoff {
@@ -247,12 +255,13 @@ footer {
 
 .footer-logo {
   display: flex;
-  padding: 0% 5%;
+  padding: 0% 10%;
   width: 40%;
+  align-items: center;
 }
 
 .footer-logo p {
-  font-size: 0.6rem;
+  font-size: 1.2rem;
   font-family: Cocogoose;
   font-weight: bold;
 }
@@ -262,5 +271,5 @@ footer {
 }
 
 .footer-logo-text p {
-  font-size: 0.7rem;
+  font-size: 1.4rem;
 }
