@@ -1,9 +1,10 @@
 @font-face {
   font-family: 'Cocogoose';
-  src: url("./assets/Cocogoose.ttf"),
-       url("./assets/cocogoose.zip"),
-       url("./assets/COCOGOOSE\ PRO\ by\ ZETAFONTS\ -\ Commercial\ information.pdf"),
-       url("./assets/Cocogoose\ Pro\ Family\ \(CC\ BY-NC\)License.pdf");
+  src:  
+    url("./assets/Cocogoose.ttf"),
+    url("./assets/cocogoose.zip"),
+    url("./assets/COCOGOOSE\ PRO\ by\ ZETAFONTS\ -\ Commercial\ information.pdf"),
+    url("./assets/Cocogoose\ Pro\ Family\ \(CC\ BY-NC\)License.pdf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
@@ -25,7 +26,7 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', sans-serif; /* stylelint-disable */
   margin: 0%;
 }
 
