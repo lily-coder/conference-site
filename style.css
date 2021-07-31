@@ -60,6 +60,7 @@ h1 {
   order: 1;
   margin: 0.5vh 0%;
   font-size: 3vh;
+  justify-self: center;
 }
 
 .intro {
