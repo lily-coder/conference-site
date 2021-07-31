@@ -52,7 +52,7 @@
     order: 2;
     font-size: 4.5vh;
     margin: auto;
-    font-family: Cocogoose; /* stylelint-disable */
+    font-family: Cocogoose; /* stylelint-disable-line */
     font-weight: normal;
     text-align: center;
   }
@@ -146,6 +146,7 @@
     height: 25vh;
     background-size: cover;
     margin: 3vh auto;
+    background-position: center center;
   }
 
   .past-summit-img h4 {
@@ -168,6 +169,7 @@
     width: 80vw;
     height: 25vh;
     margin: 3vh auto;
+    background-position: center center;
   }
 
   .second-section h2 {

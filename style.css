@@ -52,7 +52,7 @@ h1 {
   order: 2;
   font-size: 4.8vh;
   margin: 0%;
-  font-family: Cocogoose;
+  font-family: Cocogoose; /* stylelint-disable-line */
   font-weight: normal;
 }
 
