@@ -61,6 +61,7 @@ h1 {
 .intro {
   border: 1px white;
   padding: 2vh 2vw;
+  font-size: 1.8vh;
 }
 
 /* SECOND-SECTION */
@@ -75,6 +76,7 @@ h1 {
   align-self: center;
   justify-content: center;
   padding-top: 4vh;
+  font-size: 2.8vh;
 }
 
 .prog-feature {
@@ -92,13 +94,19 @@ h1 {
 
 .prog-feature h4 {
   width: 25%;
-  margin: 2px;
+  margin: auto;
+  font-size: 1.8vh;
+  align-self: center;
+  justify-self: center;
+  padding: 1vh 3vw;
 }
 
 .prog-feature p {
   width: 75%;
   float: right;
   margin: 2px;
+  font-size: 1.8vh;
+  align-self: center;
 }
 
 .second-section a {
@@ -114,5 +122,41 @@ h1 {
 
 /* THIRD-SECTION */
 .third-section {
+  margin: 0% 2vw;
+}
 
+.featured-speaker {
+  display: flex;
+}
+
+.featured-speaker img {
+  width: 25vw;
+  height: 15vh;
+}
+
+.featured-speaker div {
+  width: 65%;
+  margin: 0% 3%;
+}
+
+.featured-speaker div p {
+  font-size: 1.8vh;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.more a {
+  text-decoration: none;
+  font-size: 1.8vh;
+  padding: 1rem
 }
