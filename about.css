@@ -1,224 +1,222 @@
 @font-face {
-    font-family: 'Cocogoose';
-    src:
-      url("./assets/Cocogoose.ttf"),
-      url("./assets/cocogoose.zip"),
-      url("./assets/COCOGOOSE\ PRO\ by\ ZETAFONTS\ -\ Commercial\ information.pdf"),
-      url("./assets/Cocogoose\ Pro\ Family\ \(CC\ BY-NC\)License.pdf");
-  }
+  font-family: 'Cocogoose';
+  src:
+    url("./assets/Cocogoose.ttf"),
+    url("./assets/cocogoose.zip"),
+    url("./assets/COCOGOOSE\ PRO\ by\ ZETAFONTS\ -\ Commercial\ information.pdf"),
+    url("./assets/Cocogoose\ Pro\ Family\ \(CC\ BY-NC\)License.pdf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+.black {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.white {
+  color: #fff;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
+body {
+  font-family: 'Lato', sans-serif; /* stylelint-disable */
+  margin: 0%;
+}
+
+.nav {
+  display: none;
+}
+
+/* FIRST SECTION */
+.first-section {
+  margin: 0% 2vw;
+}
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.hambuger {
+  margin-bottom: 5vh;
+}
+
+h1 {
+  order: 2;
+  font-size: 4.5vh;
+  margin: auto;
+  font-family: Cocogoose;
+  font-weight: normal;
+  text-align: center;
+}
+
+.hello {
+  order: 1;
+  margin: 0.9vh 0%;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.intro {
+  border: 1px white;
+  padding: 2vh 2vw;
+  font-size: 1.8vh;
+  text-align: center;
+}
+
+.intro-p {
+  background-color: rgb(255, 251, 251);
+}
+
+.intro a {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.logo-description {
+  padding: 2vh 12vw;
+}
+
+.logo-description h2{
+  border: 1px white;
+  font-size: 3.2vh;
+  text-align: center;
+  font-weight: bold;
+  margin: 0%;
+}
+
+.logo-description p {
+  text-align: center;
+  font-size: 1.8vh;
+}
+
+.cc-logo-description {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 251, 251);
+}
+
+.cc-logo-description div{
+  display: flex;
+  margin: 0%;
+  padding: 0% 18%;
+  align-items: center;
+}
+
+.cc-logo-description div h4 {
+  font-size: 1.9rem;
+  font-stretch: ultra-condensed;
+  font-weight: 800;
+  margin: 0%;
+}
+
+.cc-logo-description p {
+  margin: 0%;
+  padding: 0% 29%;
+  font-size: 0.5rem;
+  text-align: center;
+}
+
+/* SECOND-SECTION */
+.second-section {
+  margin: 2vh 0%;
+  padding-bottom: 4vh;
+}
+
+.past-summit-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.past-img {
+  background-image: 
+    linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
+    url("./assets/conference-2.jpg");
+  background-repeat: no-repeat;
+  width: 80vw;
+  height: 25vh;
+  background-size: cover;
+  margin: 3vh auto;
+  background-position: center center;
+}
+
+.past-summit-img h4 {
+  font-size: 1.9rem;
+  padding: 0%;
+  margin: 0%;
+}
+
+.past-summit-img h4,
+.past-summit-img p {
+  padding: 0%;
+}
+
+.past-img-2 {
+  background-image: 
+    linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
+    url("./assets/conference-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 80vw;
+  height: 25vh;
+  margin: 3vh auto;
+  background-position: center center;
+}
+
+.second-section h2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-top: 4vh;
+  font-size: 2.8vh;
+}
+
+/* THIRD-SECTION */
+.third-section {
+  margin: 0% 2vw;
+}
+
+.featured-speaker {
+  display: flex;
+}
+
+.featured-speaker img {
+  width: 25vw;
+  height: 15vh;
+}
+
+.featured-speaker div {
+  width: 65%;
+  margin: 0% 3%;
+}
+
+.featured-speaker div p {
+  font-size: 1.8vh;
+}
   
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+.italics {
+  font-style: italic;
+}
 
-  .black {
-    color: #272a31;
-  }
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-style: solid;
+  border-width: 1px;
+}
 
-  .orange {
-    color: #ec5242;
-  }
-
-  .white {
-    color: #fff;
-  }
-
-  .grey {
-    color: #d3d3d3;
-  }
-
-  body {
-    font-family: 'Lato', sans-serif; /* stylelint-disable */
-    margin: 0%;
-  }
-
-  .nav {
-    display: none;
-  }
-
-  /* FIRST SECTION */
-  .first-section {
-    margin: 0% 2vw;
-  }
-
-  .page-head {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hambuger {
-    margin-bottom: 5vh;
-  }
-
-  h1 {
-    order: 2;
-    font-size: 4.5vh;
-    margin: auto;
-    font-family: Cocogoose;
-    font-weight: normal;
-    text-align: center;
-  }
-
-  .hello {
-    order: 1;
-    margin: 0.9vh 0%;
-    font-size: 3vh;
-    text-align: center;
-  }
-
-  .intro {
-    border: 1px white;
-    padding: 2vh 2vw;
-    font-size: 1.8vh;
-    text-align: center;
-  }
-
-  .intro-p {
-    background-color: rgb(255, 251, 251);
-  }
-
-  .intro a {
-    text-decoration: underline;
-    font-weight: bold;
-  }
-
-  .logo-description {
-    padding: 2vh 12vw;
-  }
-
-  .logo-description h2{
-    border: 1px white;
-    font-size: 3.2vh;
-    text-align: center;
-    font-weight: bold;
-    margin: 0%;
-  }
-
-  .logo-description p {
-    text-align: center;
-    font-size: 1.8vh;
-  }
-
-  .cc-logo-description {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(255, 251, 251);
-  }
-
-  .cc-logo-description div{
-    display: flex;
-    margin: 0%;
-    padding: 0% 18%;
-    align-items: center;
-  }
-
-  .cc-logo-description div h4 {
-    font-size: 1.9rem;
-    font-stretch: ultra-condensed;
-    font-weight: 800;
-    margin: 0%;
-  }
-
-  .cc-logo-description p {
-    margin: 0%;
-    padding: 0% 29%;
-    font-size: 0.5rem;
-    text-align: center;
-  }
-
-  /* SECOND-SECTION */
-  .second-section {
-    margin: 2vh 0%;
-    padding-bottom: 4vh;
-  }
-
-  .past-summit-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .past-img {
-    background-image: 
-      linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
-      url("./assets/conference-2.jpg");
-    background-repeat: no-repeat;
-    width: 80vw;
-    height: 25vh;
-    background-size: cover;
-    margin: 3vh auto;
-    background-position: center center;
-  }
-
-  .past-summit-img h4 {
-    font-size: 1.9rem;
-    padding: 0%;
-    margin: 0%;
-  }
-
-  .past-summit-img h4,
-  .past-summit-img p {
-    padding: 0%;
-  }
-
-  .past-img-2 {
-    background-image: 
-      linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
-      url("./assets/conference-2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80vw;
-    height: 25vh;
-    margin: 3vh auto;
-    background-position: center center;
-  }
-
-  .second-section h2 {
-    display: flex;
-    align-self: center;
-    justify-content: center;
-    padding-top: 4vh;
-    font-size: 2.8vh;
-  }
-
-  
-
-  /* THIRD-SECTION */
-  .third-section {
-    margin: 0% 2vw;
-  }
-
-  .featured-speaker {
-    display: flex;
-  }
-
-  .featured-speaker img {
-    width: 25vw;
-    height: 15vh;
-  }
-
-  .featured-speaker div {
-    width: 65%;
-    margin: 0% 3%;
-  }
-
-  .featured-speaker div p {
-    font-size: 1.8vh;
-  }
-  
-  .italics {
-    font-style: italic;
-  }
-
-  .more {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-style: solid;
-    border-width: 1px;
-  }
-
-  .more a {
-    text-decoration: none;
-    font-size: 1.8vh;
-    padding: 1rem;
-  }
+.more a {
+  text-decoration: none;
+  font-size: 1.8vh;
+  padding: 1rem;
+}
