@@ -5,6 +5,114 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+.black {
+  color: #272a31;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.white {
+  color: #fff;
+}
+
+.grey {
+  color: #d3d3d3;
+}
+
 body {
   font-family: 'Lato', sans-serif;
+  margin: 0%;
+}
+
+.nav {
+  display: none;
+}
+
+/* FIRST SECTION */
+.first-section {
+  margin: 0% 2vw;
+}
+
+.page-head {
+  display: flex;
+  flex-direction: column;
+}
+
+.hambuger {
+  margin-bottom: 5vh;
+}
+
+h1 {
+  order: 2;
+  font-size: 4.8vh;
+  margin: 0%;
+  font-family: 'Cocogoose';
+  font-weight: normal;
+}
+
+.hello {
+  order: 1;
+  margin: 0.5vh 0%;
+  font-size: 3vh;
+}
+
+.intro {
+  border: 1px white;
+  padding: 2vh 2vw;
+}
+
+/* SECOND-SECTION */
+.second-section {
+  background-color: #272a31;
+  margin: 2vh 0%;
+  padding-bottom: 4vh;
+}
+
+.second-section h2{
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  padding-top: 4vh;
+}
+
+.prog-feature {
+  background-color: #363434;
+  padding: 0% 1vw;
+  display: flex;
+  margin: 2vh 0%;
+}
+
+.prog-feature img {
+  width: 16%;
+  margin: 2px;
+  background-color: #d3d3d3;
+}
+
+.prog-feature h4 {
+  width: 25%;
+  margin: 2px;
+}
+
+.prog-feature p {
+  width: 75%;
+  float: right;
+  margin: 2px;
+}
+
+.second-section a {
+  display: flex;
+  margin: auto;
+  margin-top: 4vh;
+  text-decoration: none;
+  width: 70vw;
+  background-color: #ec5242;
+  padding: 3vh 4vw;
+  justify-content: center;
+}
+
+/* THIRD-SECTION */
+.third-section {
+
 }
