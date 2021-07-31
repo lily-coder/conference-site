@@ -1,6 +1,9 @@
 @font-face {
-  src: url("./assets/Cocogoose.ttf");
   font-family: 'Cocogoose';
+  src: url("./assets/Cocogoose.ttf"),
+       url("./assets/cocogoose.zip"),
+       url("./assets/COCOGOOSE\ PRO\ by\ ZETAFONTS\ -\ Commercial\ information.pdf"),
+       url("./assets/Cocogoose\ Pro\ Family\ \(CC\ BY-NC\)License.pdf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
@@ -48,7 +51,7 @@ h1 {
   order: 2;
   font-size: 4.8vh;
   margin: 0%;
-  font-family: 'Cocogoose';
+  font-family: Cocogoose;
   font-weight: normal;
 }
 
@@ -71,7 +74,7 @@ h1 {
   padding-bottom: 4vh;
 }
 
-.second-section h2{
+.second-section h2 {
   display: flex;
   align-self: center;
   justify-content: center;
@@ -158,5 +161,5 @@ h1 {
 .more a {
   text-decoration: none;
   font-size: 1.8vh;
-  padding: 1rem
+  padding: 1rem;
 }
