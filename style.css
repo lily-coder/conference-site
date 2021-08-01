@@ -419,36 +419,46 @@ footer {
     flex-direction: column;
   }
 
+  .third-section #my-popup {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    justify-content: center;
+  }
+
   .third-section h2 {
     align-self: center;
     margin-bottom: 3vh;
   }
 
-  .two-featured-speakers {
+  .third-section #my-popup .featured-speaker {
     display: flex;
     flex-direction: row;
-    margin-right: 6vw;
-    margin-left: 8vw;
+    margin-right: 2vw;
+    margin-left: 4vw;
     margin-bottom: 2vh;
+    width: 35%;
   }
 
-  .featured-speaker img {
-    width: 12vw;
-    height: 9vh;
+  .third-section #my-popup .featured-speaker img {
+    max-width: 100px;
+    max-height: 100px;
   }
   
-  .featured-speaker div p {
+  .third-section #my-popup .featured-speaker div p {
     margin: 0.5vh 0%;
   }
 
-  .featured-speaker div {
+  .third-section #my-popup .featured-speaker div {
     width: 65%;
     margin: 0% 3%;
     display: flex;
     flex-direction: column;
   }
   
-  .featured-speaker div p {
+  .third-section #my-popup .featured-speaker div p {
     font-size: 0.8em;
   }
 
