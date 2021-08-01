@@ -14,8 +14,8 @@ const speakers = [
     title: 'Director of WedDev Solutions',
     bio: 'Henry is an experienced developer who has worked for both large companies and startups. He has a PhD in Computer Science',
     image: {
-        imageUrl: './assets/speaker-8.jpg',
-        imageAlt: 'project preview image',
+      imageUrl: './assets/speaker-8.jpg',
+      imageAlt: 'project preview image',
     },
   },
 
@@ -61,7 +61,7 @@ const speakers = [
 ];
 
 function speakerCards(works) {
-  let cardMenu = `<div class="featured-speaker">
+  const cardMenu = `<div class="featured-speaker">
                       <img src="${works.image.imageUrl}" alt="${works.image.imageUrl}">
                       <div>
                           <p class="black">${works.name}</p>
