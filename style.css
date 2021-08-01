@@ -119,7 +119,7 @@ h1 {
   align-self: center;
 }
 
-.second-section a {
+.logo-link-1 {
   display: flex;
   margin: auto;
   margin-top: 4vh;
@@ -128,6 +128,10 @@ h1 {
   background-color: #ec5242;
   padding: 3vh 4vw;
   justify-content: center;
+}
+
+.logo-link-2 {
+  display: none;
 }
 
 /* THIRD-SECTION */
@@ -252,7 +256,7 @@ h1 {
     margin: 0% 12vw;
     font-size: 3vh;
     align-items: flex-end;
-    height: 10vh;
+    height: 8vh;
   }
 
   .page-head {
@@ -275,5 +279,67 @@ h1 {
 
   .location {
     margin: 0% 12vw;
+  }
+
+  /* THE MAIN PROGRAM SECTION */
+  
+  .second-section h2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 2vh;
+    font-size: 2.8vh;
+  }
+  
+  .second-section-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .prog-feature {
+    background-color: #363434;
+    padding: 0% 1vw;
+    display: flex;
+    flex-direction: column;
+    margin: 2vh 0.2vw;
+    width: 12vw;
+  }
+  
+  .prog-feature img {
+    width: 26%;
+    margin: 2px;
+    background-color: #d3d3d3;
+    align-self: center;
+  }
+  
+  .prog-feature h4 {
+    width: 60%;
+    font-size: 1.2vh;
+    align-self: center;
+    text-align: center;
+  }
+  
+  .prog-feature p {
+    width: 75%;
+    margin: 2px;
+    font-size: 0.5vh;
+    align-self: center;
+    text-align: center;
+    padding-bottom: 1vh;
+  }
+  
+  .logo-link-1 {
+    display: none;
+  }
+
+  .logo-link-2 {
+    display: flex;
+    margin: auto;
+    margin-top: 3vh;
+    text-decoration: underline;
+    width: 70vw;
+    padding: 0% 4vw;
+    justify-content: center;
+    border: none;
   }
 }
