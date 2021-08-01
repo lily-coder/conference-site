@@ -175,6 +175,10 @@ h1 {
   padding: 1rem;
 }
 
+footer {
+  display: none;
+}
+
 /* DESKTOP VERSION */
 @media (min-width: 768px) {
   /* NAVBAR SECTION */
@@ -385,4 +389,66 @@ h1 {
   .more {
     display: none;
   }
+
+  /* FOOTER SECTION */
+footer {
+  margin: 0%;
+  display: block;
+}
+
+.partners {
+  background-color: #272a31d7;
+  font-weight: bold;
+}
+
+.partners p {
+  padding: 2vh 0%;
+}
+
+.partners-heading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 0%;
+}
+
+.partners-list {
+  display: flex;
+  font-size: 0.8rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2vh;
+}
+
+.partners-list li {
+  list-style: none;
+  padding: 2vh 3vw;
+}
+
+.footer-signoff {
+  display: flex;
+}
+
+.footer-logo {
+  display: flex;
+  padding: 0% 10%;
+  width: 30%;
+  align-items: center;
+}
+
+footer .footer-logo p {
+  font-size: 1.2rem;
+  /* stylelint-disable */
+  font-family: Cocogoose;
+  /* stylelint-enable */
+  font-weight: bold;
+}
+
+.footer-logo-text {
+  width: 70%;
+}
+
+footer .footer-logo-text p {
+  font-size: 0.6rem;
+  margin-right: 4vw;
+}
 }
