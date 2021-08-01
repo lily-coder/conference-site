@@ -42,6 +42,12 @@ body {
   display: none;
 }
 
+.navbar-logo li {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
 .main-navbar-ul {
   display: block;
 }
@@ -98,10 +104,6 @@ body {
 .page-head {
   display: flex;
   flex-direction: column;
-}
-
-.hambuger {
-  margin-bottom: 5vh;
 }
 
 h1 {
@@ -444,8 +446,10 @@ footer .footer-logo-text p {
   }
 
   .past-summit-img {
-    margin: 0% 1vw;
-    height: 15vh;
+    margin: 0%;
+    height: 25vh;
+    width: 30vw;
+    align-self: center;
   }
 
   /* FOOTER SECTION */

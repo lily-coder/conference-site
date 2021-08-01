@@ -38,6 +38,12 @@ body {
   display: none;
 }
 
+.navbar-logo li {
+  cursor: pointer;
+  text-decoration: none;
+  list-style: none;
+}
+
 .main-navbar-ul {
   display: block;
 }
