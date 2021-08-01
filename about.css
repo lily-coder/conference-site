@@ -258,7 +258,7 @@ footer .partners p {
 .footer-logo {
   display: flex;
   padding: 0% 10%;
-  width: 50%;
+  width: 30%;
   align-items: center;
 }
 
@@ -271,7 +271,7 @@ footer .footer-logo p {
 }
 
 .footer-logo-text {
-  width: 50%;
+  width: 70%;
 }
 
 footer .footer-logo-text p {
@@ -342,5 +342,93 @@ footer .footer-logo-text p {
 
   .main-navbar-ul li {
     margin-right: 1vw;
+  }
+
+  /* FIRST SECTION */
+  .first-section {
+    padding: 5vh 14vw;
+    margin: 0%;
+    background-color: rgb(240, 240, 240);
+  }
+
+  .hello {
+    display: none;
+  }
+
+  .logo-description {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .logo-description h2{
+    font-size: 1.6rem;
+  }
+
+  .cc-logo-description {
+    margin: 0% 14vw;
+    padding: 1vh 0%;
+  }
+
+  /* THE PAST SUMMITS SECTION */
+  .second-section {
+    padding: 5vh 14vw;
+  }
+
+  .intro {
+    font-size: 0.8rem;
+  }
+
+  .past-summits {
+    display: flex;
+  }
+
+  .past-summit-img {
+    margin: 0% 1vw;
+    height: 15vh;
+  }
+
+  /* FOOTER SECTION */
+  footer {
+    margin: 0%;
+    display: block;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .footer-signoff {
+    display: flex;
+    background-color: #272a31d7;
+    padding: 2vh 4vw;
+  }
+
+  .footer-logo {
+    display: flex;
+    padding: 0% 10%;
+    width: 30%;
+    align-items: center;
+  }
+
+  footer .footer-logo p {
+    font-size: 1.2rem;
+    /* stylelint-disable */
+    font-family: Cocogoose;
+    /* stylelint-enable */
+    font-weight: bold;
+  }
+
+  .footer-logo-text {
+    width: 70%;
+  }
+
+  .footer-logo p {
+    color: white;
+  }
+
+  footer .footer-logo-text p {
+    font-size: 1.2rem;
+    margin-right: 4vw;
+    color: white;
   }
 }
