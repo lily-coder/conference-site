@@ -317,9 +317,6 @@ footer .footer-logo-text p {
 
   .navbar-logo {
     align-items: center;
-  }
-
-  .navbar-logo {
     display: flex;
     padding-left: 10vw;
   }
@@ -360,7 +357,7 @@ footer .footer-logo-text p {
     padding: 0%;
   }
 
-  .logo-description h2{
+  .logo-description h2 {
     font-size: 1.6rem;
   }
 
@@ -410,7 +407,7 @@ footer .footer-logo-text p {
     align-items: center;
   }
 
-  footer .footer-logo p {
+  .footer-logo p {
     font-size: 1.2rem;
     /* stylelint-disable */
     font-family: Cocogoose;
@@ -426,7 +423,7 @@ footer .footer-logo-text p {
     color: white;
   }
 
-  footer .footer-logo-text p {
+  .footer-logo-text p {
     font-size: 1.2rem;
     margin-right: 4vw;
     color: white;
