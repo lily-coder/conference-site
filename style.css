@@ -437,9 +437,7 @@ footer {
 
 footer .footer-logo p {
   font-size: 1.2rem;
-  /* stylelint-disable */
-  font-family: Cocogoose;
-  /* stylelint-enable */
+  font-family: Cocogoose; /* stylelint-disable-line */
   font-weight: bold;
 }
 
