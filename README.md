@@ -28,7 +28,7 @@ Click this [Link](https://lily-coder.github.io/conference-site/) if you want to 
 ### Setup
 To get a local copy up and running follow these simple example steps.
 
-- Clone the repository to your computer using git clone https://github.com/lily-coder/conference-site.git
+- Clone the repository to your computer using this [link](https://github.com/lily-coder/conference-site.git)
 - Cd into the folder
 - Open index.html with live server
 - Or you can Fork it instead, and create a pull request to suggest some changes
