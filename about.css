@@ -413,14 +413,11 @@ footer .footer-logo-text p {
     font-family: Cocogoose;
     /* stylelint-enable */
     font-weight: bold;
+    color: white;
   }
 
   .footer-logo-text {
     width: 70%;
-  }
-
-  .footer-logo p {
-    color: white;
   }
 
   .footer-logo-text p {
