@@ -182,8 +182,10 @@ footer {
 /* DESKTOP VERSION */
 @media (min-width: 768px) {
   /* NAVBAR SECTION */
-  .hambuger {
+  .hambuger,
+  .hamburger {
     display: none;
+    visibility: hidden;
   }
 
   .nav {
