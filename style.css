@@ -342,4 +342,47 @@ h1 {
     justify-content: center;
     border: none;
   }
+
+  /* THE FEATURED SPEAKERS SECTION */
+  .third-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .third-section h2 {
+    align-self: center;
+    margin-bottom: 3vh;
+  }
+
+  .two-featured-speakers {
+    display: flex;
+    flex-direction: row;
+    margin-right: 6vw;
+    margin-left: 8vw;
+    margin-bottom: 2vh;
+  }
+
+  .featured-speaker img {
+    width: 12vw;
+    height: 7vh;
+  }
+  
+  .featured-speaker div p {
+    margin: 0.5vh 0%;
+  }
+
+  .featured-speaker div {
+    width: 65%;
+    margin: 0% 3%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .featured-speaker div p {
+    font-size: 0.8vh;
+  }
+
+  .more {
+    display: none;
+  }
 }
