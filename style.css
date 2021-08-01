@@ -328,7 +328,7 @@ footer {
   .prog-feature p {
     width: 75%;
     margin: 2px;
-    font-size: 1em;
+    font-size: 0.5em;
     align-self: center;
     text-align: center;
     padding-bottom: 1vh;
@@ -370,7 +370,7 @@ footer {
 
   .featured-speaker img {
     width: 12vw;
-    height: 7vh;
+    height: 9vh;
   }
   
   .featured-speaker div p {
@@ -385,7 +385,7 @@ footer {
   }
   
   .featured-speaker div p {
-    font-size: 1.8vh;
+    font-size: 0.8em;
   }
 
   .more {
