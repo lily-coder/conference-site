@@ -109,6 +109,7 @@ body {
   background-size: cover;
   margin: 3vh auto;
   background-position: center center;
+  padding: 0% 3vw;
 }
 
 .page-head {
@@ -300,14 +301,11 @@ footer {
     align-items: center;
     background-color: #fff;
     padding: 0% 2vw;
-    height: 5vh;
+    height: 8vh;
   }
 
   .navbar-logo {
-    align-items: center;
-  }
-
-  .navbar-logo {
+    align-items: center; 
     display: flex;
     padding-left: 10vw;
   }
