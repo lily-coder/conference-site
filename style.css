@@ -13,6 +13,7 @@
   color: #272a31;
 }
 
+.active,
 .orange {
   color: #ec5242;
 }
@@ -301,13 +302,13 @@ footer {
     align-items: center;
     background-color: #fff;
     padding: 0% 2vw;
-    height: 8vh;
+    height: 10vh;
   }
 
   .navbar-logo {
     align-items: center; 
     display: flex;
-    padding-left: 10vw;
+    padding-left: 2vw;
   }
 
   .main-navbar-ul {
@@ -318,25 +319,29 @@ footer {
     font-size: 1em;
   }
 
+  .main-navbar-ul li a {
+    text-decoration: none;
+    color: black;
+  }
+
   .navbar-cc-link {
     border: 4px solid;
     border-color: #ec5242;
     padding: 1vh 1vw;
-    font-size: 0.6em;
-    list-style: none;
+    font-size: 1em;
+    color: #ec5242 !important;
   }
 
   .main-navbar-ul li {
-    margin-right: 1vw;
+    margin: 0% 2vw;
   }
 
   .main-navbar-ul li:hover {
     text-decoration: underline;
   }
 
-  .main-navbar-ul li a {
-    text-decoration: none;
-    color: black;
+  .main-navbar-ul li .orange {
+    color: #ec5242 !important;
   }
 
   /* THE MAIN PAGE SECTION */
