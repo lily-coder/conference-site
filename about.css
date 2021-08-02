@@ -171,6 +171,11 @@ h1 {
   align-items: center;
 }
 
+.past-summit-img h4,
+.past-summit-img p {
+  text-align: center;
+}
+
 .cc-logo-description div h4 {
   font-size: 1.2em;
   font-stretch: ultra-condensed;
@@ -239,11 +244,6 @@ h1 {
   justify-content: center;
   padding-top: 4vh;
   font-size: 2.8vh;
-}
-
-.past-summit-img h4,
-.past-summit-img p {
-  text-align: center;
 }
 
 /* THIRD-SECTION */
@@ -373,6 +373,10 @@ footer .footer-logo-text p {
     list-style: none;
   }
 
+  .main-navbar-ul li {
+    margin-right: 1vw;
+  }
+
   .black-navbar-ul li:hover {
     text-decoration: underline;
   }
@@ -406,10 +410,6 @@ footer .footer-logo-text p {
     padding: 1vh 1vw;
     font-size: 1em;
     list-style: none;
-  }
-
-  .main-navbar-ul li {
-    margin-right: 1vw;
   }
 
   .main-navbar-ul li:hover {
