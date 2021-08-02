@@ -161,6 +161,12 @@ h1 {
   padding: 0% 1vw;
   display: flex;
   margin: 2vh 0%;
+  border: none;
+}
+
+.prog-feature:hover {
+  border: 1px solid;
+  border-color: #d3d3d3;
 }
 
 .prog-feature img {
@@ -197,6 +203,11 @@ h1 {
   justify-content: center;
 }
 
+.logo-link-1:hover {
+  border: 1px solid;
+  border-color: #d3d3d3;
+}
+
 .logo-link-2 {
   display: none;
 }
@@ -213,6 +224,7 @@ h1 {
 .featured-speaker img {
   width: 25vw;
   height: 15vh;
+  margin-bottom: 1vh;
 }
 
 .featured-speaker div {
@@ -221,7 +233,7 @@ h1 {
 }
 
 .featured-speaker div p {
-  font-size: 1.8vh;
+  font-size: 0.6em;
 }
 
 .italics {
@@ -277,6 +289,10 @@ footer {
     list-style: none;
   }
 
+  .black-navbar-ul li:hover {
+    text-decoration: underline;
+  }
+
   .main-navbar {
     display: flex;
     margin: 0%;
@@ -314,6 +330,10 @@ footer {
 
   .main-navbar-ul li {
     margin-right: 1vw;
+  }
+
+  .main-navbar-ul li:hover {
+    text-decoration: underline;
   }
 
   .main-navbar-ul li a {
@@ -459,6 +479,7 @@ footer {
   
   .third-section #my-popup .featured-speaker div p {
     margin: 0.5vh 0%;
+    font-size: 0.6em;
   }
 
   .third-section #my-popup .featured-speaker div {
@@ -466,10 +487,6 @@ footer {
     margin: 0% 3%;
     display: flex;
     flex-direction: column;
-  }
-  
-  .third-section #my-popup .featured-speaker div p {
-    font-size: 0.8em;
   }
 
   .more {

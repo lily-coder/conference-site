@@ -373,6 +373,10 @@ footer .footer-logo-text p {
     list-style: none;
   }
 
+  .black-navbar-ul li:hover {
+    text-decoration: underline;
+  }
+
   .main-navbar {
     display: flex;
     margin: 0%;
@@ -406,6 +410,10 @@ footer .footer-logo-text p {
 
   .main-navbar-ul li {
     margin-right: 1vw;
+  }
+
+  .main-navbar-ul li:hover {
+    text-decoration: underline;
   }
 
   .main-navbar-ul li a {
@@ -455,7 +463,7 @@ footer .footer-logo-text p {
 
   .past-summit-img {
     margin: auto;
-    height: 15vh;
+    height: 18vh;
     width: 34vw;
     align-self: center;
   }
