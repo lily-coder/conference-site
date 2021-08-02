@@ -24,6 +24,9 @@
 ## Live Demo
 
 Click this [Link](https://lily-coder.github.io/conference-site/) if you want to see the live demo.
+- Below are the screenshots of my project:
+![screenshot](./assets/project-screenshot-1.jpg)
+![screenshot](./assets/project-screenshot-2.png)
 
 ### Setup
 To get a local copy up and running follow these simple example steps.
