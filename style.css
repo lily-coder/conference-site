@@ -100,6 +100,15 @@ body {
 /* FIRST SECTION */
 .first-section {
   margin: 0% 2vw;
+  background-image:
+    linear-gradient(0deg, rgba(252, 248, 248, 0.849), rgba(201, 192, 192, 0.979)),
+    url("./assets/conference.jpg");
+  background-color: #d3d3d3;
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-size: cover;
+  margin: 3vh auto;
+  background-position: center center;
 }
 
 .page-head {
@@ -275,6 +284,7 @@ footer {
     align-items: center;
     background-color: #fff;
     padding: 0% 2vw;
+    height: 5vh;
   }
 
   .navbar-logo {
@@ -313,7 +323,8 @@ footer {
 
   /* THE MAIN PAGE SECTION */
   .first-section {
-    margin-bottom: 8vh;
+    margin-bottom: 2vh;
+    height: 50vh;
   }
 
   .hello {
@@ -322,10 +333,9 @@ footer {
 
   .hellos {
     display: flex;
-    align-items: baseline;
-    margin: 0% 12vw;
-    font-size: 3vh;
-    align-items: flex-end;
+    align-items: flex-start;
+    margin: 0%;
+    font-size: 4vh;
     height: 8vh;
   }
 
