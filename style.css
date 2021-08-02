@@ -342,7 +342,7 @@ footer {
   /* THE MAIN PAGE SECTION */
   .first-section {
     margin-bottom: 2vh;
-    height: 50vh;
+    height: 70vh;
   }
 
   .hello {
@@ -370,13 +370,13 @@ footer {
   }
 
   .date {
-    margin: 0% 12vw;
+    margin: 0% 10vw;
     font-weight: bolder;
     margin-top: 3vh;
   }
 
   .location {
-    margin: 0% 12vw;
+    margin: 0% 10vw;
   }
 
   /* THE MAIN PROGRAM SECTION */
