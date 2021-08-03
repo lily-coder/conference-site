@@ -94,8 +94,8 @@ body {
 
 /* FIRST SECTION */
 .first-section {
-  margin: 0% 3vw;
-  background-color: rgba(252, 248, 248, 0.849);
+  margin: 0%;
+  background-color: #e6e1e177;
 }
 
 .page-head {
@@ -105,59 +105,102 @@ body {
 
 h1 {
   order: 2;
-  font-size: 4.5vh;
+  font-size: 2em;
   margin: auto;
   /* stylelint-disable */
   font-family: Cocogoose;
   /* stylelint-enable */
   font-weight: normal;
   text-align: center;
+  padding: 0% 2vw;
 }
 
 .hello {
   order: 1;
   margin: 0.9vh 0%;
-  font-size: 3vh;
+  font-size: 1.5em;
   text-align: center;
 }
 
 .intro {
   border: 1px white;
   padding: 2vh 2vw;
-  font-size: 1.8vh;
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 2em;
   text-align: center;
+  width: 70%;
+  margin: auto;
+  color: #272a31b0;
 }
 
 .intro-p {
   background-color: rgb(255, 251, 251);
+  width: 85%;
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 560;
+  line-height: 2em;
+  margin: auto;
+  color: #272a31b0;
 }
 
 .intro a {
   text-decoration: underline;
   font-weight: bold;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+  line-height: 2em;
+  color: #272a31;
 }
 
 .logo-description {
-  padding: 2vh 12vw;
+  background-color: rgb(255, 251, 251);
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 2em;
+  color: #272a31b0;
+  padding-top: 5vh;
 }
 
 .logo-description h2 {
   border: 1px white;
-  font-size: 3.2vh;
+  font-size: 1.5em;
   text-align: center;
-  font-weight: bold;
   margin: 0%;
 }
 
 .logo-description p {
+  border: 1px white;
+  padding: 2vh 2vw;
+  font-size: 0.9em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  line-height: 2em;
   text-align: center;
-  font-size: 1.8vh;
+  width: 70%;
+  margin: auto;
+  color: #272a31b0;
 }
 
 .cc-logo-description {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 251, 251);
+  color: #272a31;
+  border: 1px solid;
+  width: 85%;
+  margin: auto;
+  padding: 9vh 2vw;
+}
+
+.cc-logo-description-div h4 {
+  font-size: 1.9em !important;
+  font-stretch: ultra-condensed !important;
+  width: 70%;
+  font-weight: bold;
 }
 
 .cc-logo-description div {
@@ -165,6 +208,7 @@ h1 {
   margin: 0%;
   padding: 0% 18%;
   align-items: center;
+  margin-left: 2vw;
 }
 
 .past-summit-img h4,
@@ -182,8 +226,11 @@ h1 {
 .cc-logo-description p {
   margin: 0%;
   padding: 0% 29%;
-  font-size: 0.8em;
+  font-size: 0.4em;
   text-align: center;
+  /* stylelint-disable */
+  font-family: Cocogoose;
+  /* stylelint-enable */
 }
 
 /* SECOND-SECTION */
@@ -192,20 +239,33 @@ h1 {
   padding-bottom: 4vh;
 }
 
+.second-section .intro {
+  border: 1px white;
+  padding: 2vh 2vw;
+  font-size: 0.8em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  line-height: 1.5em;
+  text-align: center;
+  width: 70%;
+  margin: auto;
+  color: #272a31b0;
+}
+
 .past-summit-img {
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
+  height: 30vh;
+  width: 85vw;
 }
 
 .past-img {
   background-image:
     linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
-    url(./assets/conference-2.jpg);
+    url("/assets/conference-2.jpg");
   background-repeat: no-repeat;
-  width: 80vw;
-  height: 25vh;
   background-size: cover;
   margin: 3vh auto;
   background-position: center center;
@@ -225,11 +285,9 @@ h1 {
 .past-img-2 {
   background-image:
     linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
-    url("./assets/conference-3.jpg");
+    url("/assets/conference-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  width: 80vw;
-  height: 25vh;
   margin: 3vh auto;
   background-position: center center;
 }
@@ -239,48 +297,8 @@ h1 {
   align-self: center;
   justify-content: center;
   padding-top: 4vh;
-  font-size: 2.8vh;
-}
-
-/* THIRD-SECTION */
-.third-section {
-  margin: 0% 2vw;
-}
-
-.featured-speaker {
-  display: flex;
-}
-
-.featured-speaker img {
-  width: 25vw;
-  height: 15vh;
-}
-
-.featured-speaker div {
-  width: 65%;
-  margin: 0% 3%;
-}
-
-.featured-speaker div p {
-  font-size: 1.8vh;
-}
-
-.italics {
-  font-style: italic;
-}
-
-.more {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.more a {
-  text-decoration: none;
-  font-size: 1.8vh;
-  padding: 1em;
+  font-size: 1.3em;
+  font-weight: 550;
 }
 
 /* FOOTER SECTION */
@@ -291,11 +309,12 @@ footer {
 .partners {
   background-color: #272a31d7;
   font-weight: bold;
+  padding-top: 2vh;
 }
 
 footer .partners p {
   text-align: center;
-  padding: 3vh 0%;
+  padding: 4vh 0%;
   font-size: 1.2em;
 }
 
@@ -304,11 +323,12 @@ footer .partners p {
   font-size: 1.2em;
   flex-wrap: wrap;
   justify-content: center;
+  padding-bottom: 8vh;
 }
 
 .partners-list li {
   list-style: none;
-  padding: 2vh 4vw;
+  padding: 3vh 4vw;
 }
 
 .footer-signoff {
@@ -317,23 +337,26 @@ footer .partners p {
 
 .footer-logo {
   display: flex;
-  padding: 0% 10%;
-  width: 30%;
+  padding: 0% 5%;
+  width: 40%;
   align-items: center;
 }
 
 footer .footer-logo p {
-  font-size: 0.9em;
+  font-size: 1em;
   font-family: 'Lato', sans-serif;
   font-weight: bold;
+  line-height: 0.7em;
+
 }
 
 .footer-logo-text {
-  width: 70%;
+  width: 60%;
 }
 
 footer .footer-logo-text p {
   font-size: 0.8em;
+  line-height: 0.5em;
 }
 
 /* DESKTOP VERSION */
@@ -433,12 +456,23 @@ footer .footer-logo-text p {
     background-color: rgb(240, 240, 240);
   }
 
+  .page-head .h1 {
+    font-size: 2em;
+    margin: auto;
+    /* stylelint-disable */
+    font-family: Cocogoose;
+    /* stylelint-enable */
+    font-weight: normal;
+    text-align: center;
+    padding: 0% 2vw;
+  }
+
   .hello {
     display: none;
   }
 
   .logo-description {
-    margin: 0%;
+    margin: 2vh;
     padding: 0%;
   }
 
@@ -447,7 +481,7 @@ footer .footer-logo-text p {
   }
 
   .cc-logo-description {
-    margin: 0% 14vw;
+    margin: 2vh auto;
     padding: 1vh 0%;
   }
 
