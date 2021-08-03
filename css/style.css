@@ -390,8 +390,9 @@ footer {
     display: flex;
     align-self: center;
     justify-content: center;
-    padding-top: 2vh;
-    font-size: 2.8vh;
+    padding-top: 7vh;
+    font-size: 1.1em;
+    font-weight: lighter;
   }
   
   .second-section-container {
@@ -400,35 +401,37 @@ footer {
   }
 
   .prog-feature {
-    background-color: #363434;
-    padding: 0% 1vw;
+    background-color: #fff8f811;
+    padding: 0%;
     display: flex;
     flex-direction: column;
-    margin: 2vh 0.2vw;
-    width: 12vw;
+    margin: 5vh 0.2vw;
+    width: 14vw;
   }
   
   .prog-feature img {
     width: 26%;
-    margin: 2px;
+    margin: 2.5vh 2vw;
     background-color: #d3d3d3;
     align-self: center;
   }
   
   .prog-feature h4 {
     width: 60%;
-    font-size: 1em;
+    font-size: 0.8em;
     align-self: center;
     text-align: center;
   }
   
   .prog-feature p {
-    width: 75%;
-    margin: 2px;
-    font-size: 0.5em;
+    width: 95%;
+    margin: 1vh;
+    font-size: 0.9em;
     align-self: center;
     text-align: center;
-    padding-bottom: 1vh;
+    padding: 2vh 2vw;
+    line-height: 1.5em;
+    color: #d3d3d3;
   }
   
   .logo-link-1 {
@@ -437,13 +440,13 @@ footer {
 
   .logo-link-2 {
     display: flex;
-    margin: auto;
-    margin-top: 3vh;
+    margin: 6vh auto;
     text-decoration: underline;
     width: 70vw;
     padding: 0% 4vw;
     justify-content: center;
     border: none;
+    font-size: 1em;
   }
 
   /* THE FEATURED SPEAKERS SECTION */
