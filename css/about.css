@@ -377,6 +377,11 @@ footer .footer-logo-text p {
     margin-right: 1vw;
   }
 
+  .partners-list li {
+    list-style: none;
+    padding: 2vh 2vw;
+  }
+
   .black-navbar-ul li:hover {
     text-decoration: underline;
   }
@@ -509,13 +514,10 @@ footer .footer-logo-text p {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 4vh;
+    /* stylelint-disable */
     font-family: Cocogoose;
+    /* stylelint-enable */
     font-weight: lighter;
-  }
-
-  .partners-list li {
-    list-style: none;
-    padding: 2vh 2vw;
   }
 
   .footer-signoff {
@@ -531,7 +533,9 @@ footer .footer-logo-text p {
 
   footer .footer-logo p {
     font-size: 1.2em;
+    /* stylelint-disable */
     font-family: Cocogoose;
+    /* stylelint-enable */
     font-weight: bold;
   }
 
