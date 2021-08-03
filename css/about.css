@@ -376,11 +376,6 @@ footer .footer-logo-text p {
     padding: 2vh 2vw;
   }
 
-  .partners-list li {
-    list-style: none;
-    padding: 2vh 2vw;
-  }
-
   .black-navbar-ul li:hover {
     text-decoration: underline;
   }
@@ -513,7 +508,7 @@ footer .footer-logo-text p {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 4vh;
-    font-family: 'Cocogoose';
+    font-family: Cocogoose;
     font-weight: lighter;
   }
 
