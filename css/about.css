@@ -508,7 +508,9 @@ footer .footer-logo-text p {
     flex-wrap: wrap;
     justify-content: center;
     padding-bottom: 4vh;
+    /* stylelint-disable */
     font-family: Cocogoose;
+    /* stylelint-enable */
     font-weight: lighter;
   }
 
