@@ -1,7 +1,6 @@
 @font-face {
   font-family: 'Cocogoose';
-  src:
-    url("/assets/Cocogoose_trial.otf");
+  src: url("/assets/Cocogoose_trial.otf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
@@ -550,19 +549,24 @@ footer {
 
   .footer-signoff {
     display: flex;
+    padding: 3vh 0%;
   }
 
   .footer-logo {
     display: flex;
-    padding: 0% 10%;
+    padding: 0%;
     width: 30%;
+    padding-left: 12vw;
     align-items: center;
   }
 
   footer .footer-logo p {
-    font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
-    font-weight: bold;
+    font-size: 1.4em;
+    font-family: Lato, sans-serif;
+    letter-spacing: 0em;
+    font-weight: 600;
+    line-height: 1em;
+    width: 50%;
   }
 
   .footer-logo-text {
