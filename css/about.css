@@ -425,6 +425,15 @@ footer .footer-logo-text p {
     font-size: 1em;
   }
 
+  .intro a {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    line-height: 2em;
+    color: #272a31;
+  }
+
   .main-navbar-ul li a {
     text-decoration: none;
     color: black;
@@ -499,15 +508,6 @@ footer .footer-logo-text p {
     line-height: 2em;
     margin: auto;
     color: #272a31b0;
-  }
-
-  .intro a {
-    text-decoration: underline;
-    font-weight: bold;
-    font-size: 1.2em;
-    font-family: 'Lato', sans-serif;
-    line-height: 2em;
-    color: #272a31;
   }
 
   .logo-description {
@@ -604,7 +604,7 @@ footer .footer-logo-text p {
     font-size: 0.8em;
   }
 
-  .intro {
+  .second-section .intro {
     font-size: 0.7em;
   }
 
@@ -620,11 +620,6 @@ footer .footer-logo-text p {
     height: 25vh;
     width: 25vw;
     align-self: center;
-  }
-
-  .past-summit-img h4,
-  .past-summit-img p {
-    text-align: center;
   }
 
   /* FOOTER SECTION */
