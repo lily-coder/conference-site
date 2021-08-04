@@ -309,12 +309,12 @@ footer {
 .partners {
   background-color: #272a31d7;
   font-weight: bold;
-  padding-top: 2vh;
+  padding-top: 1vh;
 }
 
 footer .partners p {
   text-align: center;
-  padding: 4vh 0%;
+  padding: 1.5vh 0%;
   font-size: 1.2em;
 }
 
@@ -323,12 +323,12 @@ footer .partners p {
   font-size: 1.2em;
   flex-wrap: wrap;
   justify-content: center;
-  padding-bottom: 8vh;
+  padding-bottom: 6vh;
 }
 
 .partners-list li {
   list-style: none;
-  padding: 3vh 4vw;
+  padding: 2vh 4vw;
 }
 
 .footer-signoff {
@@ -355,7 +355,7 @@ footer .footer-logo p {
 
 footer .footer-logo-text p {
   font-size: 0.8em;
-  line-height: 0.5em;
+  line-height: 1em;
 }
 
 /* DESKTOP VERSION */
