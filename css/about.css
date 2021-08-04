@@ -264,7 +264,7 @@ h1 {
 .past-img {
   background-image:
     linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
-    url("./assets/conference-2.jpg");
+    url("/assets/conference-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 3vh auto;
@@ -285,7 +285,7 @@ h1 {
 .past-img-2 {
   background-image:
     linear-gradient(0deg, rgba(240, 9, 9, 0.4), rgba(240, 9, 9, 0.4)),
-    url("./assets/conference-3.jpg");
+    url("/assets/conference-3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   margin: 3vh auto;
@@ -428,7 +428,7 @@ footer .footer-logo-text p {
   .intro a {
     text-decoration: underline;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: 'Lato', sans-serif;
     line-height: 2em;
     color: #272a31;
@@ -489,7 +489,7 @@ footer .footer-logo-text p {
   .intro {
     border: 1px white;
     padding: 4vh 2vw;
-    font-size: 2em;
+    font-size: 1em;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 2em;
@@ -502,7 +502,7 @@ footer .footer-logo-text p {
   .intro-p {
     background-color: rgb(255, 251, 251);
     width: 55%;
-    font-size: 2em;
+    font-size: 0.8em;
     font-family: 'Lato', sans-serif;
     font-weight: 560;
     line-height: 2em;
@@ -522,7 +522,7 @@ footer .footer-logo-text p {
 
   .logo-description h2 {
     border: 1px white;
-    font-size: 1.5em;
+    font-size: 1em;
     text-align: center;
     margin: 0%;
   }
