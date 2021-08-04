@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Cocogoose';
-  src: url("/assets/Cocogoose_trial.otf");
+  src: url("../assets/Cocogoose_trial.otf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
@@ -175,7 +175,7 @@ h1 {
 .logo-description p {
   border: 1px white;
   padding: 2vh 2vw;
-  font-size: 0.9em;
+  font-size: 1em;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   line-height: 2em;
@@ -193,7 +193,7 @@ h1 {
   border: 1px solid;
   width: 85%;
   margin: auto;
-  padding: 9vh 2vw;
+  padding: 6vh 2vw;
 }
 
 .cc-logo-description-div h4 {
@@ -242,7 +242,7 @@ h1 {
 .second-section .intro {
   border: 1px white;
   padding: 2vh 2vw;
-  font-size: 0.8em;
+  font-size: 1em;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
   line-height: 1.5em;
@@ -522,7 +522,7 @@ footer .footer-logo-text p {
 
   .logo-description h2 {
     border: 1px white;
-    font-size: 1em;
+    font-size: 1.5em;
     text-align: center;
     margin: 0%;
   }
@@ -597,7 +597,7 @@ footer .footer-logo-text p {
   }
 
   .second-section h2 {
-    font-size: 1em;
+    font-size: 1.3em;
   }
 
   .second-section p {
@@ -605,7 +605,7 @@ footer .footer-logo-text p {
   }
 
   .second-section .intro {
-    font-size: 0.7em;
+    font-size: 0.9em;
   }
 
   .past-summits {
