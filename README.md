@@ -1,21 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Conference-page
-
-## Learning objectives
-- Use semantic HTML tags.
-- Apply best practices in HTML code.
-- Use CSS selectors correctly.
-- Use CSS box model.
-- Use Flexbox to place elements in the page.
-- Demonstrate ability to create UIs adaptable to different screen sizes using media queries.
-- Use GitHub Pages to deploy web pages.
-- Apply JavaScript best practices and language style guides in code.
-- Use JavaScript to manipulate DOM elements.
-- Use JavaScript events.
-- Use objects to store and access data.
-- Communicate technical concepts to other technical people. 
-
+The project I have built is based on an online website for a conference. The original design idea is by Cindy Shin in Behance. I have personalized the content and made it unique to me. It consists of two pages, the main page and about page.
 ## Built With
 
 - Html5 and Css3
