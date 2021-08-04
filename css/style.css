@@ -29,7 +29,6 @@ body {
 
 .black-navbar {
   display: none;
-  width: 0%;
 }
 
 .navbar-logo {
@@ -544,7 +543,7 @@ footer .footer-logo-text p {
   .third-section #my-popup .featured-speaker {
     display: flex;
     flex-direction: row;
-    margin-left: 3vw;
+    margin-left: 4vw;
     margin-bottom: 2vh;
     width: 40%;
     padding: 0%;
