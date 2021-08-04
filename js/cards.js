@@ -44,7 +44,7 @@ const speakers = [
     title: 'Director of WedDev Solutions',
     bio: 'Henry is an experienced developer who has worked for both large companies and startups. He has a PhD in Computer Science',
     image: {
-      imageUrl: './assets/speaker-5.jpg',
+      imageUrl: './assets/speaker-7.jpg',
       imageAlt: 'project preview image',
     },
   },
