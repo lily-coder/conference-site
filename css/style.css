@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Cocogoose';
-  src: url("/assets/Cocogoose_trial.otf");
+  src: url("../assets/Cocogoose_trial.otf");
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
